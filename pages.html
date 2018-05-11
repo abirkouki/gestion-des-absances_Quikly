@@ -1,4 +1,4 @@
-<!--
+﻿<!--
 Author: W3layouts
 Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
@@ -35,6 +35,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- start-smoth-scrolling -->
 </head>
 	
+function add_your_fields_meta_box(){ 
+  add_meta_box( 
+    'your_fields_meta_box',// $id 
+    'Your Fields',// $title 
+    'show_your_fields_meta_box',// $callback 
+    'your_post',// $screen 
+    'normal',// $context 
+    'high'// $priority 
+  ); 
+} 
+add_action('add_meta_boxes','add_your_fields_meta_box');
 <body>
 <!-- banner-body -->
 	<div class="banner-body page">
@@ -451,5 +462,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- for bootstrap working -->
 		<script src="js/bootstrap.js"> </script>
 <!-- //for bootstrap working -->
+<?php
+$args=array(
+'post_type'=>'your_post',
+);
+$your_loop=new WP_Query($args);
+if($your_loop->have_posts()) : while($your_loop->have_posts()) : $your_loop->the_post();
+$meta=get_post_meta($post->ID , 'your_fields' , true);?>
+<!-- contents of Your Post -->
+<?php endwhile; endif; wp_reset_postdata();?>
 </body>
 </html>

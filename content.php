@@ -1,3 +1,8 @@
+<h1>Title</h1> 
+<?php the_title();?> 
+ 
+<h1>Content</h1> 
+<?php the_content();?>
 <!--
 	
 <div class="blog">
@@ -51,9 +56,8 @@
 					<div class="sap_tabs">	
 					<div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
 						  <ul class="resp-tabs-list">
-							  <li class="resp-tab-item grid1" aria-controls="tab_item-0" role="tab"><span>Popular</span></li>
-							  <li class="resp-tab-item grid2" aria-controls="tab_item-1" role="tab"><span>Recent</span></li>
-							  <li class="resp-tab-item grid3" aria-controls="tab_item-2" role="tab"><span>Comments</span></li>
+							 <h4>Archives</h4> <ol class="list-unstyled"> <?php
+wp_get_archives( 'type=monthly' ); ?> </ol>
 							  <div class="clear"></div>
 						  </ul>				  	 
 							<div class="resp-tabs-container">
