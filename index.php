@@ -58,6 +58,7 @@ rel="stylesheet">
 <!-- //header-bottom -->
 		</div>
 	</div>
+	<p>  <label for="your_fields[text]">Input Text</label>  <br>  <input type="text" name="your_fields[text]" id="your_fields[text]" class="regular-text" value="<?php echo $meta['text']; ?>" > </p> 
 <!-- //banner-body -->
 <!-- footer -->
 	
