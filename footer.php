@@ -1,3 +1,27 @@
+<?php add_action( 'init', 'create_post_type' );
+function create_post_type() {
+	register_post_type( 'produit', array('label'=> array('name' =>__('Produit'),'singular_name' =>__('produit' )
+),
+'public' => true
+)
+);
+register_taxonomy( 'couleur', 'produit', array( 'hierarchical' => true, 'label' => 'couleur')
+}
+?>
+<?php add_filter( 'pre_get_posts', 'my_get_posts' );
+function my_get_posts(£query){
+	if (is_home() )
+		£query->set('post_type',array( 'produit' ) );
+	return £query;
+}
+?>
+
+
+
+
+
+
+
 <!DOCTYPE html>
 <html>
 <head>
