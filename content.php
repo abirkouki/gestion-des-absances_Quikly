@@ -1,8 +1,18 @@
-<h1>Gestion D'absence</h1> 
+<h1>Module-Etudiant</h1> 
 <?php the_title();?> 
- 
+ <p>
+<label for="your_fields[textarea]"></label>
+<br>
+<textarea name="your_fields[textarea]" id="your_fields[textarea]" rows="5" cols="30"
+style="width:500px;"><?php echo $meta['textarea'];?></textarea>
 <h1>Content</h1> 
 <?php the_content();?>
+<p>
+<label for="your_fields[checkbox]">Checkbox
+<input type="checkbox" name="your_fields[checkbox]" value="checkbox" <?php if(
+$meta['checkbox'] === 'checkbox') echo 'checked'; ?> >
+</label>
+</p>
 <!--
 	
 <div class="blog">
