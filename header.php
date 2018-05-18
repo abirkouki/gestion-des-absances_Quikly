@@ -82,25 +82,26 @@
 					<ul class="rslides" id="slider3">
 						<li>
 							<div class="banner-inf">
-								<h3>soluta nobis est eligendi cumque</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In lobortis, ante interdum vehicula pretium, dui enim porta
-								lectus, non euismod tortor ante eu libero</p>
+								<h3>citations</h3>
+								<p>si mon absence ne change rien a ta vie, c'est que ma presence n'avait aucune importance</p>
 								<a href="single.html">See More</a>
 							</div>
 						</li>
 						<li>
 							<div class="banner-inf">
-								<h3>euismod nobis est eligendi cumque</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In lobortis, ante interdum vehicula pretium, dui enim porta
-								lectus, non euismod tortor ante eu libero</p>
+								<h3>les risque d'absence des etudiant </h3>
+								<p>L'absentéisme peut conduire à des sanctions pénales après mise en demeure faite à la famille par le DASEN ainsi qu'à des sanctions disciplinaires
+								</p>
 								<a href="single.html">See More</a>
 							</div>
 						</li>
 						<li>
 							<div class="banner-inf">
-								<h3>tortor nobis est eligendi cumque</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In lobortis, ante interdum vehicula pretium, dui enim porta
-								lectus, non euismod tortor ante eu libero</p>
+								<h3>par qui et quand est_elle rensignée ? <B>MODE D'EMPLOI</B> </h3>
+								<p>La saisie de la fiche Avenir est un travail collectif qui concerne l’ensemble de
+l’équipe pédagogique. Cette saisie est réalisée en plusieurs étapes articulées
+autour du 2e conseil de classe de l’année
+</p>
 								<a href="single.html">See More</a>
 							</div>
 						</li>
