@@ -1,6 +1,4 @@
 
-	
-
 <div class="header">
 				<div class="header-nav">
 					<nav class="navbar navbar-default">
@@ -77,6 +75,12 @@
 				
 				    });
 				  </script>
+				  
+	<div id"slider" class="nivoslider">
+	<img src="wordpress/wp-content/themes/gestion-des-absances_Quikly/images/1.jpg"/>
+	<img src="images/14.jpg"/>
+
+</div>
 			<!--//End-slider-script -->
 				<div  id="top" class="callbacks_container wow fadeInUp" data-wow-delay="0.5s">
 					<ul class="rslides" id="slider3">
